@@ -10,21 +10,30 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "date-fns": "^2.28.0",
+    "jsdom": "^19.0.0",
     "next": "12.1.0",
+    "next-themes": "^0.1.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-rough-notation": "^1.0.2",
+    "rss-parser": "^3.12.0"
   },
   "devDependencies": {
     "@heroicons/react": "^1.0.6",
     "@tailwindcss/typography": "^0.5.2",
+    "@types/jsdom": "^16.2.14",
     "@types/node": "^17.0.21",
     "@types/react": "^17.0.39",
+    "@typescript-eslint/parser": "^5.15.0",
     "autoprefixer": "^10.4.2",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
     "next-seo": "^5.1.0",
     "next-sitemap": "^2.5.7",
     "postcss": "^8.4.8",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.2"
   }
 }
