@@ -22,7 +22,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <div className="max-w-6xl mx-auto px-2 pt-4 md:py-14">
+        <div className="max-w-6xl mx-auto px-2 pt-4 md:py-14 pb-10">
             <div className="flex  md:flex-row justify-between items-center">
                 <div className="flex flex-col">
                     <Link href="/">

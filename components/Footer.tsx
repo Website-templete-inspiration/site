@@ -5,6 +5,8 @@ import React from "react";
 import {FiGithub, FiGitlab, FiInstagram, FiLinkedin, FiTwitter} from "react-icons/fi";
 import {SiPackagist} from "react-icons/si";
 import {me} from "../_data/user-data";
+import Script from 'next/script'
+import {Policy} from "./Policy";
 
 export default function Footer() {
   return (
@@ -22,6 +24,7 @@ export default function Footer() {
               </div>
             </p>
           </div>
+          <Policy />
 
           <div className="space-x-4 flex flex-row items-center">
             <Link href={SocialMedia.Linkedin}>

@@ -10,7 +10,7 @@ import {Packagist} from "../services/interfaces/Packagist";
 export default function Hero({stats}: { stats: Packagist }) {
         return (
         <div className="max-w-6xl mx-auto px-2 pt-2 md:py-14">
-            <div className="flex flex-col lg:flex-row items-center my-2">
+            <div className="flex flex-col lg:flex-row items-center my-2 pt-4">
                 <div className="w-full md:w-2/3 text-center lg:text-left p-4">
                     <h2 className="font-normal text-xl lg:text-xl max-w-2xl">
                         Hey Dude, I&apos;m <span className="font-bold">Daniele</span>, the one man show behind the
