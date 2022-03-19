@@ -29,7 +29,7 @@ export default function Hero() {
                         <div className="flex flex-row justify-between mt-4">
                             <div className="flex flex-row space-x-4">
                                 <BsArrow90DegUp className="animate-bounce"/>
-                                <p className="font-mono">That's the man</p>
+                                <p className="font-mono">This is me</p>
                             </div>
                         </div>
                     </div>
