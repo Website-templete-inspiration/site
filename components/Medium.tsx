@@ -5,8 +5,8 @@ import {BsEyeglasses} from "react-icons/bs";
 const Medium = ({posts}: { posts: Post[] }) => {
     return (
         <section className="bg-white dark:bg-gray-800">
-            <div className="max-w-6xl mx-auto h-32 bg-white dark:bg-gray-800">
-                <h1 className=" text-2xl md:text-6xl font-bold py-14 text-center md:text-left">My Articles.</h1>
+            <div className="max-w-6xl mx-auto h-16 sm:h-32 bg-white dark:bg-gray-800">
+                <h1 className=" text-2xl md:text-6xl font-bold py-8 sm:py-14 text-center md:text-left">My Articles.</h1>
             </div>
             <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900 mb-10">
                 <div className="text-container max-w-6xl mx-auto pt-20">

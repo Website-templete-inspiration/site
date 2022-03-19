@@ -19,12 +19,12 @@ import {BsHeart} from "react-icons/bs";
 
 const TechStack = () => {
     return (
-        <section className="bg-white dark:bg-gray-800 mb-4 pb-4 pt-4">
+        <section className="bg-white dark:bg-gray-800 mb-4 pb-2 pt-2 sm:pb-4 sm:pt-4">
             <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800">
                 <h1 className=" text-2xl md:text-6xl font-bold mt-8 pb-1 text-center">Tech Stack.</h1>
                 <p className=" font-medium text-center p-2 ">We <BsHeart className=" text-red-700 inline-block animate-ping mr-1 " /> and we are Ninja of:</p>
             </div>
-            <div className="max-w-6xl mx-auto mb-10 ">
+            <div className="md:max-w-6xl overflow-x-auto mx-auto mb-10 ">
                 <div className="flex items-center  text-container max-w-6xl mx-auto pt-5">
                     <div className="space-x-2 flex-1 flex flex-row items-center">
                         <Link href="#">
