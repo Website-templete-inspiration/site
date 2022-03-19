@@ -21,7 +21,7 @@ const Medium = ({posts}: { posts: Post[] }) => {
                                              alt=""/>
                                     </div>
                                     <div className="flex-1 min-w-0">
-                                        <a href={post.link} target="_blank" className="text-gray-500">
+                                        <a href={post.link} target="_blank"  rel="noreferrer" className="text-gray-500">
                                             <h4 className="text-lg font-bold text-gray-500 dark:text-white ">{post.title}</h4>
                                         </a>
                                         <p className="text-xs text-gray-700 dark:text-white mt-1">{post.pubDate}</p>
