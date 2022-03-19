@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://daniele.barbaro.online
+
+# Sitemaps
+Sitemap: https://daniele.barbaro.online/sitemap.xml
