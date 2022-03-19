@@ -4,6 +4,7 @@ import React from "react";
 import {BsArrow90DegDown, BsArrow90DegUp, BsArrowLeft} from "react-icons/bs";
 import {SocialMedia} from "../_data/social-media";
 import {GiPartyPopper} from "react-icons/gi";
+import Image from 'next/image'
 
 export default function Hero() {
     return (
@@ -52,7 +53,8 @@ export default function Hero() {
                     </h2>
                     <div className="hidden sm:block pt-4 ">
                         <p className="font-mono font-extralight text-sm">
-                            <BsArrowLeft className="inline-block animate-ping mr-1 "/> That's my 10 years company <GiPartyPopper  className="inline-block animate-ping ml-0 "/>
+                            <BsArrowLeft className="inline-block animate-ping mr-1 "/> That's my 10 years
+                            company <GiPartyPopper className="inline-block animate-ping ml-0 "/>
                         </p>
                     </div>
                 </div>
