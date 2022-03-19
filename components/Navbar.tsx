@@ -11,7 +11,6 @@ import {
 } from "react-icons/bs";
 import {FiGithub, FiInstagram, FiLinkedin, FiTwitter} from "react-icons/fi";
 import {Highlight} from "./Highlight";
-import {RoughNotationGroup} from "react-rough-notation";
 
 export default function Navbar() {
     const router = useRouter();
@@ -29,12 +28,12 @@ export default function Navbar() {
                     <Link href="/">
                         <a>
                             <Highlight color={'#ffd54f'} type={'highlight'}>
-                                <h1 className="font-semibold text-xl dark:text-gray-100 ">
+                                <h1 className="font-semibold text-xl dark:text-black ">
                                     {me.name}
                                 </h1>
                             </Highlight>
 
-                            <p className="text-base font-light text-gray-500 ">
+                            <p className="text-base font-light text-gray-500 dark:text-white">
                                 {me.who}
                             </p>
                         </a>

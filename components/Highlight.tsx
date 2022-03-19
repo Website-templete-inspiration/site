@@ -10,7 +10,7 @@ export const Highlight = ({ color, type, children }) => {
             padding={3}
             animationDuration={1700}
             color={color}
-            strokeWidth={4}
+            strokeWidth={2}
         >
             {children}
         </RoughNotation>

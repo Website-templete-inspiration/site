@@ -1,19 +1,19 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Medium from "../components/Medium";
 import {GetStaticProps} from "next";
-import {getMediumPosts} from "../services/medium";
 import Navbar from "../components/Navbar";
-import {Post} from "../services/interfaces/Post";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Medium from "../components/Medium";
+import {getMediumPosts} from "../services/medium";
+import {Post} from "../services/interfaces/Post";
 
 export default function Home({ posts }: { posts: Post[] }) {
     return (
       <div className="container mx-auto px-4">
           <Navbar />
           <Hero />
+          <Medium posts={posts}/>
           <Footer/>
+
       </div>
   )
 }
