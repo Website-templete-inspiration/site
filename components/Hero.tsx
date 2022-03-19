@@ -5,22 +5,29 @@ import {BsArrow90DegDown, BsArrow90DegUp, BsArrowLeft} from "react-icons/bs";
 import {SocialMedia} from "../_data/social-media";
 import {GiPartyPopper} from "react-icons/gi";
 import Image from 'next/image'
+import {Packagist} from "../services/interfaces/Packagist";
 
-export default function Hero() {
-    return (
+export default function Hero({stats}: { stats: Packagist }) {
+        return (
         <div className="max-w-6xl mx-auto px-2 pt-2 md:py-14">
             <div className="flex flex-col lg:flex-row items-center my-2">
                 <div className="w-full md:w-2/3 text-center lg:text-left p-4">
-                    <h2 className="font-normal text-xl lg:text-2xl max-w-3xl">
-                        Hello Dude, I&apos;m <span className="font-bold">Daniele</span>, the one man show behind the
-                        curtain <Highlight color={'#21759B'} type={'box'}> <span className="font-bold">dB
+                    <h2 className="font-normal text-xl lg:text-xl max-w-2xl">
+                        Hey Dude, I&apos;m <span className="font-bold">Daniele</span>, the one man show behind the
+                        curtain of <br/> <Highlight color={'#21759B'} type={'highlight'}> <span className="font-bold font-white dark:font-white">dB
                         Development</span></Highlight>.
                     </h2>
 
-                    <h2 className="font-normal text-xl lg:text-2xl max-w-3xl pt-6">
+                    <h2 className="font-normal text-xl lg:text-xl max-w-2xl pt-3">
                         I <Highlight color={'#8b9b21'} type={'box'}>code</Highlight>, I <Highlight
                         color={'#249a20'} type={'box'}>teach how to write beautiful code</Highlight> and
                         I <Highlight color={'#6a9b21'} type={'box'}>write articles</Highlight> on <a href={SocialMedia.Medium}>Medium</a> and.
+                    </h2>
+
+                    <h2 className="font-normal text-xl lg:text-xl max-w-2xl pt-6">
+                        I love the backend, I am a Ninja PHP developer and <a href="https://laravel.com" target="_blank" rel="noreferrer" className="text-red-700" > Laravel</a>  enthusiast. I use a lot of open source software so I&apos;m an opensource contributor.
+                        <br /> One of my Laravel Package today has reach <a href={stats.package.repository} target="_blank" rel="noreferrer" className="font-bold" >{stats.package.downloads.total}</a> downloads so far.
+                        <br /> Well, yes also <a href="https://nestjs.com" target="_blank" rel="noreferrer" className="text-red-700" >NestJs</a> is my friends.
                     </h2>
                 </div>
                 <div className="w-full md:w-1/3 lg:block items-end p-4   ">
