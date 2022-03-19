@@ -53,7 +53,7 @@ export default function Hero() {
                     <div className="hidden sm:block pt-4 ">
                         <p className="font-mono font-extralight text-sm">
                             <BsArrowLeft className="inline-block animate-ping mr-1 "/> That&apos;s my 10 years
-                            company <GiPartyPopper className="inline-block animate-ping ml-0 "/>
+                            company <GiPartyPopper className="inline-block ml-0 "/>
                         </p>
                     </div>
                 </div>
