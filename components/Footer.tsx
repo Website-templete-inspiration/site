@@ -25,43 +25,43 @@ export default function Footer() {
 
           <div className="space-x-4 flex flex-row items-center">
             <Link href={SocialMedia.Linkedin}>
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <FiLinkedin className="text-[#0A66C2] font-normal text-gray-600 dark:text-gray-300"/>
               </a>
             </Link>
 
             <Link href={SocialMedia.Medium}>
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <BsMedium className="text-base font-normal text-gray-600 dark:text-gray-300"/>
               </a>
             </Link>
 
             <Link href={SocialMedia.Github}>
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <FiGithub className="text-base font-normal text-gray-600 dark:text-gray-300"/>
               </a>
             </Link>
 
             <Link href={SocialMedia.Gitlab}>
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <FiGitlab className="text-base font-normal text-gray-600 dark:text-gray-300"/>
               </a>
             </Link>
 
             <Link href={SocialMedia.Packagist}>
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <SiPackagist className="text-base font-normal text-gray-600 dark:text-gray-300"/>
               </a>
             </Link>
 
             <Link href={SocialMedia.Instagram}>
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <FiInstagram className="text-base font-normal text-gray-600 dark:text-gray-300"/>
               </a>
             </Link>
 
             <Link href={SocialMedia.Twitter}>
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <FiTwitter className="text-base font-normal text-gray-600 dark:text-gray-300"/>
               </a>
             </Link>

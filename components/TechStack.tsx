@@ -28,84 +28,84 @@ const TechStack = () => {
                 <div className="flex items-center  text-container max-w-6xl mx-auto pt-5">
                     <div className="space-x-2 flex-1 flex flex-row items-center">
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiPhp
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiGnubash
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiTypescript
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiNodedotjs
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiVuedotjs
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiLaravel
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiDrupal
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiSymfony
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiHugo
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiCss3
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiHtml5
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiTailwindcss
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
@@ -113,35 +113,35 @@ const TechStack = () => {
 
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiRedis
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiMysql
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiMongodb
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiNginx
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
                         </Link>
 
                         <Link href="#">
-                            <a target="_blank">
+                            <a target="_blank" rel="noreferrer">
                                 <SiDocker
                                     className="h-14 w-14 ease-out hover:ease-in duration-100 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
                             </a>
