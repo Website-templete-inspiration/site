@@ -9,68 +9,73 @@ import Script from 'next/script'
 import {Policy} from "./Policy";
 
 export default function Footer() {
-  return (
-    <div className=" dark:bg-gray-900">
-      <div className="max-w-6xl mx-auto px-2 pt-4 pb-2">
-        <div className="h-0.5 w-full bg-white dark:bg-gray-700"/>
-        <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between sm:items-center mt-6">
-          <div className="flex sm:items-center sm:text-center ">
-            <p className="text-sm">
-              <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
-                <a className="hover:bg-pink-500 rounded-md px-2 py-1 hover:text-gray-50">&copy; {me.name}</a>
-              </div>
-              <div className="px-4 py-1 text-xs">
-                All Rights Reserved
-              </div>
-            </p>
-          </div>
-          <Policy />
+    return (
+        <div className=" dark:bg-gray-900">
+            <div className="max-w-6xl mx-auto px-2 pt-4 pb-2">
+                <div className="h-0.5 w-full bg-red-700 dark:bg-gray-700"/>
 
-          <div className="space-x-4 flex flex-row items-center">
-            <Link href={SocialMedia.Linkedin}>
-              <a target="_blank" rel="noreferrer">
-                <FiLinkedin className="text-[#0A66C2] font-normal text-gray-600 dark:text-gray-300"/>
-              </a>
-            </Link>
+                <div className="flex flex-col md:flex-row mt-4 mb-6 sm:mb-4 ">
+                    <div className="mx-auto sm:mx-0 p-3 sm:p-1">
+                        <p className="text-sm">
+                            <div
+                                className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
+                                <a className="hover:bg-pink-500 rounded-md px-2 py-1 hover:text-gray-50">&copy; {me.name}</a>
+                            </div>
+                            <div className="px-4 py-1 text-xs">
+                                All Rights Reserved
+                            </div>
+                        </p>
+                    </div>
 
-            <Link href={SocialMedia.Medium}>
-              <a target="_blank" rel="noreferrer">
-                <BsMedium className="text-base font-normal text-gray-600 dark:text-gray-300"/>
-              </a>
-            </Link>
+                    <div className=" flex flex-row flex-grow mx-auto sm:mx-2 space-x-8 p-2 sm:p-0 ">
+                        <Policy/>
+                    </div>
 
-            <Link href={SocialMedia.Github}>
-              <a target="_blank" rel="noreferrer">
-                <FiGithub className="text-base font-normal text-gray-600 dark:text-gray-300"/>
-              </a>
-            </Link>
+                    <div className="space-x-4 flex flex-row mx-auto p-6 sm:p-4 ">
+                        <Link href={SocialMedia.Linkedin}>
+                            <a target="_blank" rel="noreferrer">
+                                <FiLinkedin className="font-normal text-[#0A66C2] dark:text-gray-300"/>
+                            </a>
+                        </Link>
 
-            <Link href={SocialMedia.Gitlab}>
-              <a target="_blank" rel="noreferrer">
-                <FiGitlab className="text-base font-normal text-gray-600 dark:text-gray-300"/>
-              </a>
-            </Link>
+                        <Link href={SocialMedia.Medium}>
+                            <a target="_blank" rel="noreferrer">
+                                <BsMedium className="text-base font-normal dark:text-gray-300"/>
+                            </a>
+                        </Link>
 
-            <Link href={SocialMedia.Packagist}>
-              <a target="_blank" rel="noreferrer">
-                <SiPackagist className="text-base font-normal text-gray-600 dark:text-gray-300"/>
-              </a>
-            </Link>
+                        <Link href={SocialMedia.Github}>
+                            <a target="_blank" rel="noreferrer">
+                                <FiGithub className="text-base font-normal text-gray-900 dark:text-gray-300"/>
+                            </a>
+                        </Link>
 
-            <Link href={SocialMedia.Instagram}>
-              <a target="_blank" rel="noreferrer">
-                <FiInstagram className="text-base font-normal text-gray-600 dark:text-gray-300"/>
-              </a>
-            </Link>
+                        <Link href={SocialMedia.Gitlab}>
+                            <a target="_blank" rel="noreferrer">
+                                <FiGitlab className="text-base font-normal text-[#554488] dark:text-gray-300"/>
+                            </a>
+                        </Link>
 
-            <Link href={SocialMedia.Twitter}>
-              <a target="_blank" rel="noreferrer">
-                <FiTwitter className="text-base font-normal text-gray-600 dark:text-gray-300"/>
-              </a>
-            </Link>
-          </div>
+                        <Link href={SocialMedia.Packagist}>
+                            <a target="_blank" rel="noreferrer">
+                                <SiPackagist className="text-base font-normal text-[#f28d1a] dark:text-gray-300"/>
+                            </a>
+                        </Link>
+
+                        <Link href={SocialMedia.Instagram}>
+                            <a target="_blank" rel="noreferrer">
+                                <FiInstagram className="text-base font-normal text-[#E4405F] dark:text-gray-300"/>
+                            </a>
+                        </Link>
+
+                        <Link href={SocialMedia.Twitter}>
+                            <a target="_blank" rel="noreferrer">
+                                <FiTwitter className="text-base font-normal text-[#1DA1F2] dark:text-gray-300"/>
+                            </a>
+                        </Link>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }

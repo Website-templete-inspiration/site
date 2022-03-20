@@ -1,7 +1,7 @@
 import {Highlight} from "./Highlight";
 import {me} from "../_data/user-data";
 import React from "react";
-import {BsArrow90DegDown, BsArrow90DegUp, BsArrowLeft} from "react-icons/bs";
+import {BsArrow90DegUp, BsArrowLeft} from "react-icons/bs";
 import {SocialMedia} from "../_data/social-media";
 import {GiPartyPopper} from "react-icons/gi";
 import Image from 'next/image'
@@ -9,25 +9,25 @@ import {Packagist} from "../services/interfaces/Packagist";
 
 export default function Hero({stats}: { stats: Packagist }) {
         return (
-        <div className="max-w-6xl mx-auto px-2 pt-2 md:py-14">
+        <div className="max-w-6xl mx-auto px-2 py-10 md:py-12">
             <div className="flex flex-col lg:flex-row items-center my-2 pt-4">
                 <div className="w-full md:w-2/3 text-center lg:text-left p-4">
                     <h2 className="font-normal text-xl lg:text-xl max-w-2xl">
                         Hey Dude, I&apos;m <span className="font-bold">Daniele</span>, the one man show behind the
-                        curtain of <br/> <Highlight color={'#21759B'} type={'highlight'}> <span className="font-bold font-white dark:font-white">dB
+                        curtain of <br/> <Highlight color={'#21759B'} type={'highlight'}> <span className="font-bold text-white">dB
                         Development</span></Highlight>.
                     </h2>
 
                     <h2 className="font-normal text-xl lg:text-xl max-w-2xl pt-3">
                         I <Highlight color={'#8b9b21'} type={'box'}>code</Highlight>, I <Highlight
                         color={'#249a20'} type={'box'}>teach how to write beautiful code</Highlight> and
-                        I <Highlight color={'#6a9b21'} type={'box'}>write articles</Highlight> on <a href={SocialMedia.Medium}>Medium</a> and.
+                        I <Highlight color={'#6a9b21'} type={'box'}>write articles</Highlight> on <a href={SocialMedia.Medium} target="_blank" rel="noreferrer" className="font-semibold">Medium</a> and.
                     </h2>
 
                     <h2 className="font-normal text-xl lg:text-xl max-w-2xl pt-6">
-                        I love the backend, I am a Ninja PHP developer and <a href="https://laravel.com" target="_blank" rel="noreferrer" className="text-red-700" > Laravel</a>  enthusiast. I use a lot of open source software so I&apos;m an opensource contributor.
-                        <br /> One of my Laravel Package today has reach <a href={stats.package.repository} target="_blank" rel="noreferrer" className="font-bold" >{stats.package.downloads.total}</a> downloads so far.
-                        <br /> Well, yes also <a href="https://nestjs.com" target="_blank" rel="noreferrer" className="text-red-700" >NestJs</a> is my friends.
+                        I love the backend, I am a Ninja PHP developer and <a href="https://laravel.com" target="_blank" rel="noreferrer" className="font-semibold text-red-700" > Laravel</a>  enthusiast. I use a lot of open source software so I&apos;m an opensource contributor.
+                        <br /> One of my Laravel Package today has reach <a href={stats.package.repository} target="_blank" rel="noreferrer" className="font-semibold" >{stats.package.downloads.total}</a> downloads so far.
+                        <br /> Well, yes also <a href="https://nestjs.com" target="_blank" rel="noreferrer" className=" font-semibold text-red-500" >NestJs</a> is my friends.
                     </h2>
                 </div>
                 <div className="w-full md:w-1/3 lg:block items-end p-4   ">
@@ -43,12 +43,12 @@ export default function Hero({stats}: { stats: Packagist }) {
                 </div>
             </div>
 
-            <div className="grid grid-rows-2 grid-flow-col gap-4 shadow-xl bg-red dark:bg-gray-800 dark:border-gray-600 pt-4 ">
-                <div className="row-span-2 mx-auto pb-6 flex justify-center">
-                    <img src="./db-development.svg" alt="logo db-development " className="h-12 w-36 sm:h-36"/>
+            <div className="flex flex-col md:flex-row shadow-xl dark:bg-gray-800 dark:border-gray-600 p-4 ">
+                <div className="flex flex-row mx-auto pb-6 flex justify-center">
+                    <img src="./db-development.svg" alt="logo db-development " className="h-24 w-36 sm:h-36"/>
                 </div>
-                <div className="row-span-2 col-span-2 ">
-                    <h2 className="font-normal text-xl lg:text-2xl max-w-3xl pt-5 pb-0">
+                <div className="flex flex-row  ">
+                    <h2 className="font-normal text-xl lg:text-2xl max-w-3xl pt-1 sm:pt-5 content-center sm:content-start">
                         <Highlight color={'#288780'} type={'highlight'}>
                             The right way for the innovation. <br/>
                             We work hard, we work a lot, for a simple and better solution <br/>
@@ -57,12 +57,7 @@ export default function Hero({stats}: { stats: Packagist }) {
                             <span className="text-white">Keep in touch.</span>
                         </Highlight>
                     </h2>
-                    <div className="hidden sm:block pt-4 ">
-                        <p className="font-mono font-extralight text-sm">
-                            <BsArrowLeft className="inline-block animate-ping mr-1 "/> That&apos;s my 10 years
-                            company <GiPartyPopper className="inline-block ml-0 "/>
-                        </p>
-                    </div>
+
                 </div>
             </div>
         </div>

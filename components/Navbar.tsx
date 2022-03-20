@@ -23,7 +23,7 @@ export default function Navbar() {
 
     return (
         <div className="max-w-6xl mx-auto px-2 pt-4 md:py-14 pb-10">
-            <div className="flex  md:flex-row justify-between items-center">
+            <div className="flex md:flex-row justify-between items-center">
                 <div className="flex flex-col">
                     <Link href="/">
                         <a>
@@ -32,7 +32,6 @@ export default function Navbar() {
                                     {me.name}
                                 </h1>
                             </Highlight>
-
                             <p className="text-base font-light text-gray-500 dark:text-white">
                                 {me.who}
                             </p>
@@ -64,18 +63,6 @@ export default function Navbar() {
                         </a>
                     </Link>
 
-                    <Link href={SocialMedia.Instagram}>
-                        <a target="_blank" rel="noreferrer">
-                            <FiInstagram className="text-base font-normal text-[#E4405F] dark:text-gray-300"/>
-                        </a>
-                    </Link>
-
-                    <Link href={SocialMedia.Twitter}>
-                        <a target="_blank" rel="noreferrer">
-                            <FiTwitter className="text-base font-normal text-[#1DA1F2] dark:text-gray-300"/>
-                        </a>
-                    </Link>
-
                     <button
                         aria-label="Dark Mode"
                         type="button"
@@ -86,7 +73,7 @@ export default function Navbar() {
                             <>
                                 {theme === "dark" ? (
                                     <BsFillSunFill fill="currentColor" stroke="currentColor"
-                                                   className="w-4 h-4 text-yellow-500 dark:text-yellow-500"/>
+                                                   className="w-4 h-4 text-yellow-500 dark:text-[#0ea5e9]"/>
                                 ) : (
                                     <BsFillMoonStarsFill fill="currentColor" stroke="currentColor"
                                                          className="w-4 h-4 text-yellow-500 dark:text-yellow-500"/>

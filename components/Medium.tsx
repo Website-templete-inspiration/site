@@ -4,9 +4,10 @@ import {BsEyeglasses} from "react-icons/bs";
 
 const Medium = ({posts}: { posts: Post[] }) => {
     return (
-        <section className="bg-white dark:bg-gray-800">
-            <div className="max-w-6xl mx-auto h-16 sm:h-32 bg-white dark:bg-gray-800">
-                <h1 className=" text-2xl md:text-6xl font-bold py-8 sm:py-14 text-center md:text-left">My Articles.</h1>
+        <section>
+            <div className="max-w-6xl mx-auto h-16 sm:h-32">
+                <h1 className=" text-2xl md:text-6xl font-bold py-8 sm:py-14 text-center md:text-left">My Medium
+                    Articles.</h1>
             </div>
             <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900 mb-10">
                 <div className="text-container max-w-6xl mx-auto pt-20">
@@ -21,7 +22,7 @@ const Medium = ({posts}: { posts: Post[] }) => {
                                              alt=""/>
                                     </div>
                                     <div className="flex-1 min-w-0">
-                                        <a href={post.link} target="_blank"  rel="noreferrer" className="text-gray-500">
+                                        <a href={post.link} target="_blank" rel="noreferrer" className="text-gray-500">
                                             <h4 className="text-lg font-bold text-gray-500 dark:text-white ">{post.title}</h4>
                                         </a>
                                         <p className="text-xs text-gray-700 dark:text-white mt-1">{post.pubDate}</p>
@@ -41,7 +42,8 @@ const Medium = ({posts}: { posts: Post[] }) => {
                     </div>
                 </div>
                 <div className="flex items-center ">
-                    <BsEyeglasses className="flex-1 flex text-gray-900 text-xl dark:text-white mt-4 place-content-center content-center items-baseline object-none object-center mb-4"/>
+                    <BsEyeglasses
+                        className="flex-1 font-bold flex text-[#21759B] text-xl dark:text-white mt-4 place-content-center content-center items-baseline object-none object-center mb-4"/>
                 </div>
             </div>
         </section>
