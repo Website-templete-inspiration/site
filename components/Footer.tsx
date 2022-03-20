@@ -11,10 +11,10 @@ import {Policy} from "./Policy";
 export default function Footer() {
     return (
         <div className=" dark:bg-gray-900">
-            <div className="max-w-6xl mx-auto px-2 pt-4 pb-2">
+            <div className="pt-4 pb-2">
                 <div className="h-0.5 w-full bg-red-700 dark:bg-gray-700"/>
 
-                <div className="flex flex-col md:flex-row mt-4 mb-6 sm:mb-4 ">
+                <div className="w-full flex flex-col md:flex-row mt-4 mb-6 sm:mb-4 ">
                     <div className="mx-auto sm:mx-0 p-3 sm:p-1">
                         <p className="text-sm">
                             <div

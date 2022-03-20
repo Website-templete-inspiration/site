@@ -19,8 +19,8 @@ const Medium = ({posts}: { posts: Post[] }) => {
                                     className="relative flex border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 dark:border-gray-600 mx-4 ">
                                     <div className="mr-4 flex-shrink-0 self-center hidden sm:block">
                                         <Image src={post.image}
-                                               width="18" height="18"
-                                               className="w-18 h-18 sm:h-12 md:max-w-24 lg:max-w-48 rounded-none mx-auto border border-gray-300 bg-white"
+                                               width="48" height="32"
+                                               className="w-12 h-8 sm:h-16 md:max-w-24 lg:max-w-48 rounded-none mx-auto border border-gray-300 bg-white"
                                                alt={post.title}/>
                                     </div>
                                     <div className="flex-1 min-w-0">
