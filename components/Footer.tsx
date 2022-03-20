@@ -5,7 +5,6 @@ import React from "react";
 import {FiGithub, FiGitlab, FiInstagram, FiLinkedin, FiTwitter} from "react-icons/fi";
 import {SiPackagist} from "react-icons/si";
 import {me} from "../_data/user-data";
-import Script from 'next/script'
 import {Policy} from "./Policy";
 
 export default function Footer() {
