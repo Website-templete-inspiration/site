@@ -3,7 +3,6 @@ import {me} from "../_data/user-data";
 import React from "react";
 import {BsArrow90DegUp, BsArrowLeft} from "react-icons/bs";
 import {SocialMedia} from "../_data/social-media";
-import {GiPartyPopper} from "react-icons/gi";
 import Image from 'next/image'
 import {Packagist} from "../services/interfaces/Packagist";
 
@@ -32,7 +31,7 @@ export default function Hero({stats}: { stats: Packagist }) {
                 </div>
                 <div className="w-full md:w-1/3 lg:block items-end p-4   ">
                     <div className="ml-4 hidden lg:block relative w-full ">
-                        <img src={me.avatarUrl} alt={me.name} className=" rounded object-right max-h-64 shadow-2xl  "/>
+                        <Image src={me.avatarUrl} alt={me.name} height={256} width={256} layout="responsive" className=" rounded object-right max-h-64 shadow-2xl  "/>
                         <div className="flex flex-row justify-between mt-4">
                             <div className="flex flex-row space-x-4">
                                 <BsArrow90DegUp className="animate-bounce"/>
@@ -45,7 +44,7 @@ export default function Hero({stats}: { stats: Packagist }) {
 
             <div className="flex flex-col md:flex-row shadow-xl dark:bg-gray-800 dark:border-gray-600 p-4 ">
                 <div className="flex flex-row mx-auto pb-6 flex justify-center">
-                    <img src="./db-development.svg" alt="logo db-development " className="h-24 w-36 sm:h-36"/>
+                    <Image src="/db-development.svg" height={145} width={145}  alt="logo db-development " className="h-24 w-36 sm:h-36"/>
                 </div>
                 <div className="flex flex-row  ">
                     <h2 className="font-normal text-xl lg:text-2xl max-w-3xl pt-1 sm:pt-5 content-center sm:content-start">

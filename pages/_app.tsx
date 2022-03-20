@@ -10,7 +10,7 @@ import {me} from "../_data/user-data";
 
 export default function App({Component, pageProps}: AppProps) {
     useEffect(() => {
-        TagManager.initialize({ gtmId: me.gtm });
+        TagManager.initialize({gtmId: me.gtm});
     }, []);
     return (
         <ThemeProvider defaultTheme="light" attribute="class">

@@ -15,7 +15,7 @@ import Script from 'next/script'
 
 export default function Home({ posts, stats }: { posts: Post[], stats: Packagist }) {
     return (
-      <div className="container mx-auto px-4">
+      <main className="container mx-auto px-4">
           <NextSeo
               title="Daniele Barbaro – dB Development web solution – The right way for the innovation"
               description="Hi, I am Daniele Barbaro and this is my personal website where I share my business experiences."
@@ -29,7 +29,7 @@ export default function Home({ posts, stats }: { posts: Post[], stats: Packagist
           <Script src="./iubenda.js" />
           <Script src="//cdn.iubenda.com/cs/ccpa/stub.js" />
           <Script src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" async />
-      </div>
+      </main>
   )
 }
 
