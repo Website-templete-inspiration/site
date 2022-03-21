@@ -12,7 +12,7 @@ export default function Hero({stats}: { stats: Packagist }) {
             <div className="flex flex-col lg:flex-row items-center my-2 pt-4">
                 <div className="w-full md:w-2/3 text-center lg:text-left p-4">
                     <h2 className="font-normal text-xl lg:text-xl max-w-2xl">
-                        Hey Dude, I&apos;m <span className="font-bold">Daniele</span>, the one man show behind the
+                        Hey Dude, I&apos;m <span className="font-bold">Daniele</span>, the one-man show behind the
                         curtain of <br/> <Highlight color={'#21759B'} type={'highlight'}> <span className="font-bold text-white">dB
                         Development</span></Highlight>.
                     </h2>
@@ -20,13 +20,13 @@ export default function Hero({stats}: { stats: Packagist }) {
                     <h2 className="font-normal text-xl lg:text-xl max-w-2xl pt-3">
                         I <Highlight color={'#8b9b21'} type={'box'}>code</Highlight>, I <Highlight
                         color={'#249a20'} type={'box'}>teach how to write beautiful code</Highlight> and
-                        I <Highlight color={'#6a9b21'} type={'box'}>write articles</Highlight> on <a href={SocialMedia.Medium} target="_blank" rel="noreferrer" className="font-semibold">Medium</a> and.
+                        I <Highlight color={'#6a9b21'} type={'box'}>write articles</Highlight> on <a href={SocialMedia.Medium} target="_blank" rel="noreferrer" className="font-semibold">Medium</a>.
                     </h2>
 
                     <h2 className="font-normal text-xl lg:text-xl max-w-2xl pt-6">
                         I love the backend, I am a Ninja PHP developer and <a href="https://laravel.com" target="_blank" rel="noreferrer" className="font-semibold text-red-700" > Laravel</a>  enthusiast. I use a lot of open source software so I&apos;m an opensource contributor.
                         <br /> One of my Laravel Package today has reach <a href={stats.package.repository} target="_blank" rel="noreferrer" className="font-semibold" >{stats.package.downloads.total}</a> downloads so far.
-                        <br /> Well, yes also <a href="https://nestjs.com" target="_blank" rel="noreferrer" className=" font-semibold text-red-500" >NestJs</a> is my friends.
+                        <br /> Well, yes also <a href="https://nestjs.com" target="_blank" rel="noreferrer" className=" font-semibold text-red-500" >NestJs</a> is my friend.
                     </h2>
                 </div>
                 <div className="w-full md:w-1/3 lg:block items-end p-4   ">
