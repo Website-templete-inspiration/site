@@ -7,8 +7,8 @@ export const Highlight = ({ color, type, children }) => {
             show={true}
             type={type}
             multiline={true}
-            padding={3}
-            animationDuration={1700}
+            padding={2}
+            animationDuration={1900}
             color={color}
             strokeWidth={2}
         >
