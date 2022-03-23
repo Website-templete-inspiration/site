@@ -2,7 +2,7 @@ import Link from "next/link";
 import {SocialMedia} from "../_data/social-media";
 import {BsMedium} from "react-icons/bs";
 import React from "react";
-import {FiGithub, FiGitlab, FiInstagram, FiLinkedin, FiTwitter} from "react-icons/fi";
+import {FiGithub, FiGitlab, FiInstagram, FiLinkedin, FiMail, FiTwitter} from "react-icons/fi";
 import {SiPackagist} from "react-icons/si";
 import {me} from "../_data/user-data";
 import {Policy} from "./Policy";
@@ -31,6 +31,13 @@ export default function Footer() {
                     </div>
 
                     <div className="space-x-4 flex flex-row mx-auto p-6 sm:p-4 ">
+                        <div
+                            className="inline-block transform hover:scale-110 hover:-rotate-6 transition duration-300">
+                            <a href={`mailto:${me.email}`} target="_blank" rel="noreferrer" className="hover:text-red-700 hover:text-gray-50">
+                                <FiMail className="font-normal text-[#288780] dark:text-gray-300"/>
+                            </a>
+                        </div>
+
                         <Link href={SocialMedia.Linkedin}>
                             <a target="_blank" rel="noreferrer">
                                 <FiLinkedin className="font-normal text-[#0A66C2] dark:text-gray-300"/>
