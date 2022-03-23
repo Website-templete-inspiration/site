@@ -4,7 +4,7 @@ export type Post = {
     link: string;
     description: string;
     image: string;
-    date: string;
+    date: number;
     content: string;
     tags: string[];
     pubDate: string,
