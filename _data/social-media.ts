@@ -19,7 +19,7 @@ export const SocialMediaUser = {
 export const OpenGraph = {
   openGraph: {
     type: 'website',
-    locale: 'it_IT',
+    locale: 'en_EN',
     url: 'https://daniele.barbaro.online',
     site_name: 'Daniele Barbaro - Webpage',
   },
