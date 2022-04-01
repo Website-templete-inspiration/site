@@ -30,131 +30,95 @@ const TechStack = () => {
             <div className="md:max-w-6xl overflow-x-auto mx-auto mb-2 sm:mb-10 ">
                 <div className="flex items-center  text-container max-w-6xl mx-auto pt-2 sm:pt-5">
                     <div className="space-x-2 flex-1 flex flex-row items-center p-2">
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Php" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiPhp
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Gnu bash" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiGnubash
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Typescript" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiTypescript
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Node.js" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiNodedotjs
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Vue.js" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiVuedotjs
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Laravel" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiLaravel
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Drupal" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiDrupal
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Symfony" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiSymfony
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Hugo" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiHugo
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Css3" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiCss3
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Html5" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiHtml5
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Tailwindcss" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiTailwindcss
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Next.js" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiNextdotjs
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Redis" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiRedis
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Mysql" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiMysql
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Mongodb" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiMongodb
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Nginx" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiNginx
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
 
-                        <Link href="#">
-                            <a target="_blank" rel="noreferrer" className="hover:scale-110 ease-in duration-200">
+                            <span aria-label="Docker" className="hover:scale-110 ease-in duration-200" role="img">
                                 <SiDocker
                                     className="h-10 w-10 sm:h-14 sm:w-14 text-base font-bold text-gray-300 font-normal dark:text-gray-300"/>
-                            </a>
-                        </Link>
+                            </span>
                     </div>
                 </div>
             </div>

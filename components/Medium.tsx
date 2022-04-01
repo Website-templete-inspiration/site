@@ -30,11 +30,11 @@ const Medium = ({posts}: { posts: Post[] }) => {
                                         <p className="text-xs text-gray-700 dark:text-white mt-1">{post.pubDate}</p>
                                         <div className="mt-2">
                                             {post.tags.map((tag, index) =>
-                                                <a key={index}>
+                                                <span key={index}>
                                                     <span
-                                                        className="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800 ml-1 text-right"
+                                                        className="inline-flex rounded-full bg-green-100 px-2.5 py-1 text-xs font-semibold leading-5 text-green-800 mx-1 my-0.5 text-right"
                                                     >{tag}</span>
-                                                </a>
+                                                </span>
                                             )}
                                         </div>
                                     </div>

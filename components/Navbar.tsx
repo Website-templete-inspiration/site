@@ -44,21 +44,20 @@ export default function Navbar() {
                 </div>
 
                 <div className="space-x-4 flex flex-row items-center">
-
                     <Link href={SocialMedia.Linkedin}>
-                        <a target="_blank" rel="noreferrer">
+                        <a target="_blank" rel="noreferrer" aria-label="Linkedin">
                             <FiLinkedin className="text-base text-[#0A66C2] font-normal dark:text-gray-300"/>
                         </a>
                     </Link>
 
                     <Link href={SocialMedia.Medium}>
-                        <a target="_blank" rel="noreferrer">
+                        <a target="_blank" rel="noreferrer" aria-label="Medium">
                             <BsMedium className="text-base font-normal  dark:text-gray-300"/>
                         </a>
                     </Link>
 
                     <Link href={SocialMedia.Github}>
-                        <a target="_blank" rel="noreferrer">
+                        <a target="_blank" rel="noreferrer" aria-label="Github">
                             <FiGithub className="text-base font-normal text-gray-900 dark:text-gray-300"/>
                         </a>
                     </Link>
