@@ -27,9 +27,9 @@ export default function Home({ posts, stats }: { posts: Post[], stats: Packagist
           <Medium posts={posts}/>
           <Footer/>
 
-          <Script src="//cdn.iubenda.com/cs/ccpa/stub.js" />
-          <Script src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" async />
           <Script src="/iubenda.js" />
+          <Script src="//cdn.iubenda.com/cs/ccpa/stub.js" />
+          <Script src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" async={true} />
       </main>
   )
 }
